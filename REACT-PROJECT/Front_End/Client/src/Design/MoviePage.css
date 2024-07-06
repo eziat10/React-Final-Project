@@ -1,0 +1,64 @@
+/* styles/MovieComp.css */
+
+/* Movie item */
+.movie-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.2s ease;
+}
+
+.movie-item:hover {
+    transform: scale(1.02);
+}
+
+/* Movie image */
+.movie-image {
+    width: 80px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Movie details */
+.movie-details {
+    flex: 1;
+}
+
+/* Movie title */
+.movie-title {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+/* Movie year */
+.movie-year {
+    color: #888;
+}
+
+/* Actions (Edit/Delete buttons) */
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+}
+
+.actions button:hover {
+    background-color: #0056b3;
+}
